@@ -8,7 +8,6 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-.test-report/
 *.iws
 *.iml
 *.ipr
@@ -37,4 +36,3 @@ build/
 
 ### Mac OS ###
 .DS_Store
-test-report/

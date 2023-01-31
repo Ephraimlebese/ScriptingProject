@@ -24,11 +24,11 @@ public class OrderItemSteps extends BaseClass {
         }
     }
     @And("I add item {string} to the cart and validate the cart")
-    public void iAddProductToTheCartAndValidateTheCart(String name) {
+    public void iAddProductToTheCartAndValidateTheCart(String item) {
         checkTestResult(() ->
         {
-            orderAnItemImplementation.addItemToCart(name);
-            orderAnItemImplementation.validateAddedItemOnTheCart(name);
+            orderAnItemImplementation.addItemToCart(item);
+            orderAnItemImplementation.validateAddedItemOnTheCart(item);
         });
     }
 
@@ -36,7 +36,7 @@ public class OrderItemSteps extends BaseClass {
     public void iUsePostalCodeToCheckOut(String name, String surname, String code) {
         checkTestResult(() ->
         {
-            orderAnItemImplementation.checkOut(name,surname,code);
+            orderAnItemImplementation.checkOut(name, surname, code);
             orderAnItemImplementation.finish();
 
         });

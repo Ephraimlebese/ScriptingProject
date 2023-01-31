@@ -111,7 +111,7 @@ public class OrderAnItemImplementation extends BaseClass {
             throw new TestFailedException("Failed to expected value is "+totalProductPrice+" actual value :" +total);
         }
 
-        takeAScreenShot("Item total :"+totalProductPrice+"<br>" + "Total including tax "+ (total + tax));
+        takeAScreenShot("Item total :"+totalProductPrice+"<br>" + "Total including tax: "+ (total + tax));
 
         if (!seleniumDriverInstance.clickElementByXpath(OrderAnItemPageObjects.finishButtonXpath())) {
             throw new TestFailedException("Failed to click finish button");
