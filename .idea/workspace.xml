@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc31fce6-37c3-4e72-89a3-2321be2945ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/implementation/OrderAnItemImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/implementation/OrderAnItemImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsDefinition/OrderItemSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/OrderItemSteps.java" afterDir="false" />
-    </list>
+    <list default="true" id="cc31fce6-37c3-4e72-89a3-2321be2945ae" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
