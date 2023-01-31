@@ -18,11 +18,13 @@ Ensure java sdk and jdk are configured on machine
 - Open Intellij
 - Open project in Intellij
 - Build the project (Might take time if it's a new copy of Intellij)
+- Accept and configure the auto popups
 - After completes successfully and all dependencies are downloaded 
 - Navigate on the project explorer to: src/test/java/testRunner
 - Open the TestRunner java class
 - Right-click on the class and select Run 'TestRunner'
 - After execution on the project explorer expand the test-report folder 
 - Expand the file with the latest date time stamp
-- Open TestReport.html with prefared browser.
+- Open PDFTestsReports.pdf or TestReport.html with prefared browser to get test results.
+- Test screenshots and stored on the "screenshots" folder
 
